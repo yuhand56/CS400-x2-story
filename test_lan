@@ -1,0 +1,8 @@
+var userid  = gs. getUserID ( ) ; var now_GR  = new GlideRecord ( 'sys_user' ) ; 
+now_GR. get ( 'sys_id' , userid ) ; 
+ 
+ if (now_GR. source )
+    answer = true ; else
+    answer = false ; 
+ 
+answer ;
